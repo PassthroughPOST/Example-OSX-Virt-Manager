@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Boot</key>
+    <dict>
+        <key>Arguments</key>
+        <string>-v</string>
+        <key>DefaultVolume</key>
+        <string>DracoHD</string>
+        <key>Log</key>
+        <true/>
+        <key>Secure</key>
+        <false/>
+        <key>Timeout</key>
+        <integer>5</integer>
+    </dict>
+    <key>GUI</key>
+    <dict>
+        <key>Scan</key>
+        <dict>
+            <key>Entries</key>
+            <true/>
+            <key>Tool</key>
+            <true/>
+        </dict>
+        <key>ScreenResolution</key>
+        <string>1920x1080</string>
+        <key>Theme</key>
+        <string>embedded</string>
+    </dict>
+    <key>RtVariables</key>
+    <dict>
+        <key>BooterConfig</key>
+        <string>0x28</string>
+        <key>CsrActiveConfig</key>
+        <string>0x3</string>
+    </dict>
+    <key>SMBIOS</key>
+    <dict>
+	<key>Trust</key>
+	<false/>
+        <key>BiosReleaseDate</key>
+        <string>12/19/18</string>
+        <key>BiosVendor</key>
+        <string>Apple Inc.</string>
+        <key>BiosVersion</key>
+        <string>IM101.88Z.F000.B00.1812191603</string>
+        <key>Board-ID</key>
+        <string>Mac-F2268CC8</string>
+        <key>BoardManufacturer</key>
+        <string>Apple Inc.</string>
+        <key>BoardSerialNumber</key>
+        <string>W801305PE1MHF</string>
+        <key>BoardType</key>
+        <integer>10</integer>
+        <key>BoardVersion</key>
+        <string>1.0</string>
+        <key>ChassisAssetTag</key>
+        <string>iMac-Aluminum</string>
+        <key>ChassisManufacturer</key>
+        <string>Apple Inc.</string>
+        <key>ChassisType</key>
+        <string>0x0D</string>
+        <key>EfiVersion</key>
+        <string>214.0.0.0.0</string>
+        <key>Family</key>
+        <string>iMac</string>
+        <key>FirmwareFeatures</key>
+        <string>0xE00DE137</string>
+        <key>FirmwareFeaturesMask</key>
+        <string>0xFF1FFF3F</string>
+        <key>LocationInChassis</key>
+        <string>Part Component</string>
+        <key>Manufacturer</key>
+        <string>Apple Inc.</string>
+        <key>Mobile</key>
+        <false/>
+        <key>PlatformFeature</key>
+        <string>0xFFFF</string>
+        <key>ProductName</key>
+        <string>iMac10,1</string>
+        <key>SerialNumber</key>
+        <string>W80140CH5PE</string>
+        <key>SmUUID</key>
+        <string>AE8DDAA8-586B-4F98-AF24-5B6F534C5993</string>
+        <key>Version</key>
+        <string>1.0</string>
+    </dict>
+    <key>SystemParameters</key>
+    <dict>
+        <key>InjectKexts</key>
+        <true/>
+        <key>InjectSystemID</key>
+        <true/>
+    </dict>
+</dict>
+</plist>
